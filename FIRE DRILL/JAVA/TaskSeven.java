@@ -1,0 +1,23 @@
+public class TaskSeven{
+    public static void main(String[]args){
+
+        int sum = 0;
+        int total = 0;
+
+        for(int number = 4; number <= 2000; number*=4){
+           total += number;
+           
+         }
+        System.out.print(total);           
+
+        System.out.print("; ");
+
+        for(int numberTwo = 8; numberTwo <= 35000; numberTwo*=8){
+           sum += numberTwo;
+          
+        }
+        System.out.print(sum);
+
+
+    }
+}
